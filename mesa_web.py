@@ -288,7 +288,7 @@ def find_read_profile(filename, model_number, nearest=False, as_table=False):
                     'profiles.index')
     model_number -- integer model number
     as_table     -- boolean flag indicating the format of the data returned: 
-                        True: return as astropy.table.Table object
+                        Trgit config --global user.email "you@example.com"ue: return as astropy.table.Table object
                         False: return as Python dict (default)
     nearest      -- boolean flag indicating whether the profile with the nearest 
                     model number should be read, IF the exact model can't be 
